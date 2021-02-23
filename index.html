@@ -1,279 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" href="./images/yemi-122.png">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="app.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href="./images/yemi-122.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
     <title>Ikeh Akinyemi</title>
-</head>
-<body id="body">
+  </head>
+  <body id="body">
     <!-- Photo holder -->
     <div id="dim" class="dim-background fade-in">
-        <div id="photo-holder" class="photo-holder"></div>
+      <div id="photo-holder" class="photo-holder"></div>
     </div>
     <!-- pattern -->
     <div class="pattern"></div>
     <div id="overall-container" class="container">
-        <!-- Navigation -->
-        <nav class="nav">
-            <a href="#body"><div class="logo">Ikeh Akinyemi</div></a>
-            <span id="menu" class="menu">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 384.97 384.97" style="enable-background:new 0 0 384.97 384.97;" xml:space="preserve"><path d="M12.03,120.303h360.909c6.641,0,12.03-5.39,12.03-12.03c0-6.641-5.39-12.03-12.03-12.03H12.03c-6.641,0-12.03,5.39-12.03,12.03C0,114.913,5.39,120.303,12.03,120.303z"/><path d="M372.939,180.455H12.03c-6.641,0-12.03,5.39-12.03,12.03s5.39,12.03,12.03,12.03h360.909c6.641,0,12.03-5.39,12.03-12.03 S379.58,180.455,372.939,180.455z"/><path d="M372.939,264.667H132.333c-6.641,0-12.03,5.39-12.03,12.03c0,6.641,5.39,12.03,12.03,12.03h240.606 c6.641,0,12.03-5.39,12.03-12.03C384.97,270.056,379.58,264.667,372.939,264.667z"/></svg>
-            </span>
-            <ul id="menu-items" class="menu-items">
-                <span id="close-menu" class="close-menu">
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve"><path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717 L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859 c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287 l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285 L284.286,256.002z"/></svg>
-                </span>
-                <li><a id="works" href="#works-view" class="nav-skills"><p>Projects</p></a></li>
-                <li><a id="skills" href="#skills-view" class="nav-skills"><p>Skills</p></a></li>
-                <li><a id="resume" href="https://docs.google.com/document/d/1Uetsex3WoBynGEbxZIA2DCg8SB-UL0CaBvg1qDD5Leg/edit?usp=sharing" class="nav-resume"><p>Resume</p></a></li>
-                <a href="#contact-me" class="nav-say-hello-text"><button id="say-hello" class="nav-say-hello-btn colored-btn">Contact me</button></a>
-            </ul>
-        </nav>
+      <!-- Navigation -->
+      <nav class="nav">
+        <a href="#body"><div class="logo">Ikeh Akinyemi</div></a>
+        <span id="menu" class="menu">
+          <svg
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 384.97 384.97"
+            style="enable-background: new 0 0 384.97 384.97"
+            xml:space="preserve"
+          >
+            <path
+              d="M12.03,120.303h360.909c6.641,0,12.03-5.39,12.03-12.03c0-6.641-5.39-12.03-12.03-12.03H12.03c-6.641,0-12.03,5.39-12.03,12.03C0,114.913,5.39,120.303,12.03,120.303z"
+            />
+            <path
+              d="M372.939,180.455H12.03c-6.641,0-12.03,5.39-12.03,12.03s5.39,12.03,12.03,12.03h360.909c6.641,0,12.03-5.39,12.03-12.03 S379.58,180.455,372.939,180.455z"
+            />
+            <path
+              d="M372.939,264.667H132.333c-6.641,0-12.03,5.39-12.03,12.03c0,6.641,5.39,12.03,12.03,12.03h240.606 c6.641,0,12.03-5.39,12.03-12.03C384.97,270.056,379.58,264.667,372.939,264.667z"
+            />
+          </svg>
+        </span>
+        <ul id="menu-items" class="menu-items">
+          <span id="close-menu" class="close-menu">
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 512.001 512.001"
+              style="enable-background: new 0 0 512.001 512.001"
+              xml:space="preserve"
+            >
+              <path
+                d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717 L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859 c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287 l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285 L284.286,256.002z"
+              />
+            </svg>
+          </span>
+          <li>
+            <a id="works" href="#works-view" class="nav-skills"
+              ><p>Projects</p></a
+            >
+          </li>
+          <li>
+            <a id="skills" href="#skills-view" class="nav-skills"
+              ><p>Skills</p></a
+            >
+          </li>
+          <li>
+            <a
+              id="resume"
+              href="https://docs.google.com/document/d/1Uetsex3WoBynGEbxZIA2DCg8SB-UL0CaBvg1qDD5Leg/edit?usp=sharing"
+              class="nav-resume"
+              ><p>Resume</p></a
+            >
+          </li>
+          <a href="#contact-me" class="nav-say-hello-text"
+            ><button id="say-hello" class="nav-say-hello-btn colored-btn">
+              Contact me
+            </button></a
+          >
+        </ul>
+      </nav>
 
-        <!-- Main Contents -->
-        <main class="main">
-            <!-- Introduction -->
-            <div class="intro">
-                <div id="memoji" class="memoji pop"></div>
-                <p class="intro-hi slide-up">Hello, my name is Akinyemi...</p>
-                <p class="intro-about-me slide-up">I'm a Software Engineer based in Rivers state Nigeria with ~2
-                    <br> years of practical and professional experience building modern functional web Application
-                    <br> and working with various teams, contributing to Mozilla and OSS in general. 
-                    <br> <!-- for scroll position of skills tab when skills option is clicked -->
-                    I am able to receive constructive critics as they help me get better.
+      <!-- Main Contents -->
+      <main class="main">
+        <!-- Introduction -->
+        <div class="intro">
+          <div id="memoji" class="memoji pop"></div>
+          <p class="intro-hi slide-up">Hello, my name is Akinyemi...</p>
+          <p class="intro-about-me slide-up">
+            I'm a Software Engineer based in Rivers state Nigeria with ~2 <br />
+            years of practical and professional experience building modern
+            functional web Application <br />
+            and working with various teams, contributing to Mozilla and OSS in
+            general. <br />
+            <!-- for scroll position of skills tab when skills option is clicked -->
+            I am able to receive constructive critics as they help me get
+            better.
+          </p>
+        </div>
+        <br id="skills-view" />
+
+        <!-- Skills -->
+        <div class="skills">
+          <p class="skills-header header">Skills</p>
+          <hr />
+          <div class="all-skills">
+            <div class="my-skills">
+              <div class="javacsript-logo my-skills-logo"></div>
+              <p class="my-skills-name">JAVASCRIPT</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="react-logo my-skills-logo"></div>
+              <p class="my-skills-name">REACT</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="typescript-logo my-skills-logo"></div>
+              <p class="my-skills-name">TYPESCRIPT</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="css-logo my-skills-logo"></div>
+              <p class="my-skills-name">PYTHON 3</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="html-logo my-skills-logo"></div>
+              <p class="my-skills-name">HTML 5</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="rwd-logo my-skills-logo"></div>
+              <p class="my-skills-name">RESPONSIVE WEB DESIGN</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="api-logo my-skills-logo"></div>
+              <p class="my-skills-name">CSS 3</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="git-logo my-skills-logo"></div>
+              <p class="my-skills-name">GIT</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="photoshop-logo my-skills-logo"></div>
+              <p class="my-skills-name">MERCURIAL</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="xd-logo my-skills-logo"></div>
+              <p class="my-skills-name">ADOBE XD</p>
+            </div>
+
+            <div class="my-skills">
+              <div class="illustrator-logo my-skills-logo"></div>
+              <p class="my-skills-name">FIGMA</p>
+            </div>
+          </div>
+          <br id="works-view" />
+        </div>
+
+        <!-- Works -->
+        <div id="works" class="works">
+          <section class="works-header header">
+            <p class="works-header-heading">Projects</p>
+            <div class="fields">
+              <button
+                id="developer-btn"
+                class="fields-developer-btn fields-btn colored-btn"
+              >
+                Developer
+              </button>
+            </div>
+          </section>
+          <hr />
+
+          <section
+            id="works-as-a-developer"
+            class="works-as-a-developer fade-in"
+          >
+            <div class="SpinWhot project">
+              <div class="project-name-holder">
+                <p class="project-name-holder-SpinWhot project-title">
+                  SpinWhot
                 </p>
-            </div>
-            <br id="skills-view">
-            
+              </div>
 
-            <!-- Skills -->
-            <div class="skills">
-                <p class="skills-header header">Skills</p>
-                <hr />
-                <div class="all-skills">
-                    <div class="my-skills">
-                        <div class="javacsript-logo my-skills-logo"></div>
-                        <p class="my-skills-name">JAVASCRIPT</p>
-                    </div>
-
-                    <div class="my-skills">
-                        <div class="css-logo my-skills-logo"></div>
-                        <p class="my-skills-name">PYTHON 3</p>
-                    </div>
-
-                    <div class="my-skills">
-                        <div class="html-logo my-skills-logo"></div>
-                        <p class="my-skills-name">HTML 5</p>
-                    </div>
-
-                    <div class="my-skills">
-                        <div class="rwd-logo my-skills-logo"></div>
-                        <p class="my-skills-name">RESPONSIVE WEB DESIGN</p>
-                    </div>
-
-                    <div class="my-skills">
-                        <div class="api-logo my-skills-logo"></div>
-                        <p class="my-skills-name">CSS 3</p>
-                    </div>
-
-                    <div class="my-skills">
-                        <div class="git-logo my-skills-logo"></div>
-                        <p class="my-skills-name">GIT</p>
-                    </div>
-
-                    <div class="my-skills">
-                        <div class="photoshop-logo my-skills-logo"></div>
-                        <p class="my-skills-name">MERCURIAL</p>
-                    </div>
-                    
-                    <div class="my-skills">
-                        <div class="xd-logo my-skills-logo"></div>
-                        <p class="my-skills-name">ADOBE XD</p>
-                    </div>
-
-                    <div class="my-skills">
-                        <div class="illustrator-logo my-skills-logo"></div>
-                        <p class="my-skills-name">FIGMA</p>
-                    </div>
+              <section class="works-hover-state fade-in">
+                <p class="works-hover-state-name">SpinWhot></p>
+                <p class="works-hover-state-desc">
+                  This is a web app game.<br />
+                  Play the guessing card game against a simple gussing bot I
+                  built.
+                  <br />
+                  Guess a card from 40cards available, then try guessing another
+                  card with the same content as the first guessed card. You
+                  score 2 points if correct or not if wrong. Then the bot
+                  follows the same process to winning points too.
+                </p>
+                <div class="works-hover-state-btns">
+                  <button class="works-hover-state-code">
+                    <a href="https://github.com/IkehAkinyemi/SpinWhot"
+                      >Source code</a
+                    >
+                  </button>
+                  <button class="works-hover-state-demo">
+                    <a href="https://spin-whot.ikehakinyemi.vercel.app/"
+                      >Demo</a
+                    >
+                  </button>
                 </div>
-                <br id="works-view">
+              </section>
             </div>
 
-            
+            <div class="Wejapa-To-Dos project">
+              <div class="project-name-holder">
+                <p class="project-name-holder-Wejapa-To-Dos project-title">
+                  Wejapa-To-Do
+                </p>
+              </div>
 
-            <!-- Works -->
-            <div id="works" class="works">
-                <section class="works-header header">
-                    <p class="works-header-heading">Projects</p>
-                    <div class="fields">
-                        <button id="developer-btn" class="fields-developer-btn fields-btn colored-btn">Developer</button>
-                    </div>
-
-                </section>
-                <hr />
-                
-                <section id="works-as-a-developer" class="works-as-a-developer fade-in">
-                        <div class="Wejapa-To-Dos project">
-                            <div class="project-name-holder">
-                                <p class="project-name-holder-Wejapa-To-Dos project-title">Wejapa-To-Do</p>
-                            </div>
-
-                            <section class="works-hover-state fade-in">
-                                <p class="works-hover-state-name">Wejapa-To-Dos</p>
-                                <p class="works-hover-state-desc">This is a simple To-Do List webapp. <br> Manage your time and tasks in a simple neat listing format. <br>
-                                Quickly add tasks that are to be achieve within a set time-frame stamped on it. When tasks are completed, easily track them out as completed. Never lose track of your tasks while accomplishing them.</p>
-                                <div class="works-hover-state-btns">
-                                    <button class="works-hover-state-code"><a href="https://github.com/IkehAkinyemi/Wejapa-To-Dos">Source code</a></button>
-                                    <button class="works-hover-state-demo"><a href="https://ikehakinyemi.github.io/Wejapa-To-Dos/">Demo</a></button>
-                                </div>
-                            </section>
-                        </div>
-
-                        <div class="NumToWord project">
-                            <div class="project-name-holder">
-                                <p class="project-name-holder-NumToWord project-title">NumToWord</p>
-                            </div>
-
-                            <section class="works-hover-state fade-in">
-                                <p class="works-hover-state-name">NumToWord</p>
-                                <p class="works-hover-state-desc">NumToWord is a algorithm webapp built to convert numerical figures to its equivalent in words. <br> Extended the ability to numbers yet countable. <br> The algorithm would still undergo restructuring to limit code repetitions.</p>
-                                    <div class="works-hover-state-btns">
-                                        <button class="works-hover-state-code"><a href="https://github.com/IkehAkinyemi/NumToWord">Source code</a></button>
-                                        <button class="works-hover-state-demo"><a href="https://ikehakinyemi.github.io/NumToWord/">Demo</a></button>
-                                    </div>
-                            </section>
-                        </div>
-
-                        <div class="Dotch project">
-                            <div class="project-name-holder">
-                                <p class="project-name-holder-Dotch project-title">Dotch</p>
-                            </div>
-
-                            <section class="works-hover-state fade-in">
-                                <p class="works-hover-state-name">Dotch</p>
-                                <p class="works-hover-state-desc">This is a photo collection website inspired by a senior friend. <br> 
-                                    The main idea is to create an infinite collections of photos while learning infinite scroll <br>
-                                So I decide to turn it into a full blown project, which I plan to incorporate loads of photos using the Unsplash API. This is still under development, only available in mobile view, coming soon to desktop </p>
-                                <div class="works-hover-state-btns">
-                                    <button class="works-hover-state-code"><a href="https://github.com/IkehAkinyemi/Dotch-project">Source code</a></button>
-                                    <button class="works-hover-state-demo"><a href="https://ikehakinyemi.github.io/Dotch-project/">Demo</a></button>
-                                </div>
-                            </section>
-                        </div>
-
-                        <div class="guessme project">
-                            <div class="project-name-holder">
-                                <p class="project-name-holder-guessme project-title">GuessME</p>
-                            </div>
-
-                            <section class="works-hover-state fade-in">
-                                <p class="works-hover-state-name">GuessMe</p>
-                                <p class="works-hover-state-desc">Guess Me is a word game inspired by my elder brother. <br> 
-                                    It is simple to play: a word of jumbled characters is displayed and the player is required to guess the correct word <br>
-                                The project would still undergo development as I plan to work with dictionary API to provide random words with meaning as a hint, and redesign the UI.</p>
-                                <div class="works-hover-state-btns">
-                                    <button class="works-hover-state-code"><a href="https://github.com/IkehAkinyemi/GuessMe-Project">Source code</a></button>
-                                    <button class="works-hover-state-demo"><a href="https://ikehakinyemi.github.io/GuessMe-Project/">Demo</a></button>
-                                </div>
-                            </section>
-                        </div>                    
-
-                        <div class="lovelife project">
-                            <div class="project-name-holder">
-                                <p class="project-name-holder-lovelife project-title">LoveLife</p>
-                            </div>
-
-                            <section class="works-hover-state fade-in">
-                                <p class="works-hover-state-name">LoveLife</p>
-                                <p class="works-hover-state-desc">Built it for Joyce, my friend that was more than a friend. <br>
-                                I built it in appreciation to her true friendship and contribution to my life during my first year in University<br>
-                                Built it as gift to her on her birthday.</p>
-                                <div class="works-hover-state-btns">
-                                    <button class="works-hover-state-code"><a href="https://github.com/IkehAkinyemi/Joyce-s-Birthday">Source code</a></button>
-                                    <button class="works-hover-state-demo"><a href="https://ikehakinyemi.github.io/Joyce-s-Birthday/">Demo</a></button>
-                                </div>
-                            </section>
-                        </div>                    
-
-                        <div class="gravitas project">
-                            <div class="project-name-holder">
-                                <p class="project-name-holder-gravitas project-title">Gravitas Family</p>
-                            </div>
-
-                            <section class="works-hover-state fade-in">
-                                <p class="works-hover-state-name">Gravitas Family</p>
-                                <p class="works-hover-state-desc">I learnt building website UI with this project as my first webpage.<br>
-                                This project was desktop ready as of the time I built it then. </p>
-                                <div class="works-hover-state-btns">
-                                    <button class="works-hover-state-code"><a href="https://github.com/IkehAkinyemi/Gravitas">Source code</a></button>
-                                    <button class="works-hover-state-demo"><a href="https://ikehakinyemi.github.io/Gravitas/">Demo</a></button>
-                                </div>
-                            </section>
-                        </div>                    
-
-                        <div class="color-generator project">
-                            <div class="project-name-holder">
-                                <p class="project-name-holder-color-generator project-title">Color-generator</p>
-                            </div>
-
-                            <section class="works-hover-state fade-in">
-                                <p class="works-hover-state-name">Color-generator</p>
-                                <p class="works-hover-state-desc">Color-generator is a very basic project. It generates random color between 
-                                    color value of 0 and the color value you input.</p>
-                                    <div class="works-hover-state-btns">
-                                        <button class="works-hover-state-code"><a href="https://github.com/IkehAkinyemi/color-GENERATOR">Source code</a></button>
-                                        <button class="works-hover-state-demo"><a href="https://ikehakinyemi.github.io/color-GENERATOR/">Demo</a></button>
-                                    </div>
-                            </section>
-                        </div>
-                </section>
+              <section class="works-hover-state fade-in">
+                <p class="works-hover-state-name">Wejapa-To-Dos</p>
+                <p class="works-hover-state-desc">
+                  This is a simple To-Do List webapp. <br />
+                  Manage your time and tasks in a simple neat listing format.
+                  <br />
+                  Quickly add tasks that are to be achieve within a set
+                  time-frame stamped on it. When tasks are completed, easily
+                  track them out as completed. Never lose track of your tasks
+                  while accomplishing them.
+                </p>
+                <div class="works-hover-state-btns">
+                  <button class="works-hover-state-code">
+                    <a href="https://github.com/IkehAkinyemi/Wejapa-To-Dos"
+                      >Source code</a
+                    >
+                  </button>
+                  <button class="works-hover-state-demo">
+                    <a href="https://ikehakinyemi.github.io/Wejapa-To-Dos/"
+                      >Demo</a
+                    >
+                  </button>
+                </div>
+              </section>
             </div>
-        </main>
 
-        <footer class="footer">
-            <p class="footer-contact-me header" id="contact-me">Contact Me</p>
-            <hr />
-            <div class="contact-links">
-                <a href="https://twitter.com/IkehAkinyemi">
-                    <div class="contacts twitter" title="twitter">
-                        <svg viewBox="0 -47 512.00004 512" xmlns="http://www.w3.org/2000/svg"><path d="m512 55.964844c-32.207031 1.484375-31.503906 1.363281-35.144531 1.667968l19.074219-54.472656s-59.539063 21.902344-74.632813 25.820313c-39.640625-35.628907-98.5625-37.203125-140.6875-11.3125-34.496094 21.207031-53.011719 57.625-46.835937 100.191406-67.136719-9.316406-123.703126-41.140625-168.363282-94.789063l-14.125-16.964843-10.554687 19.382812c-13.339844 24.492188-17.769531 52.496094-12.476563 78.851563 2.171875 10.8125 5.863282 21.125 10.976563 30.78125l-12.117188-4.695313-1.4375 20.246094c-1.457031 20.566406 5.390625 44.574219 18.320313 64.214844 3.640625 5.53125 8.328125 11.605469 14.269531 17.597656l-6.261719-.960937 7.640625 23.199218c10.042969 30.480469 30.902344 54.0625 57.972657 67.171875-27.035157 11.472657-48.875 18.792969-84.773438 30.601563l-32.84375 10.796875 30.335938 16.585937c11.566406 6.324219 52.4375 27.445313 92.820312 33.78125 89.765625 14.078125 190.832031 2.613282 258.871094-58.664062 57.308594-51.613282 76.113281-125.03125 72.207031-201.433594-.589844-11.566406 2.578125-22.605469 8.921875-31.078125 12.707031-16.964844 48.765625-66.40625 48.84375-66.519531zm-72.832031 48.550781c-10.535157 14.066406-15.8125 32.03125-14.867188 50.578125 3.941407 77.066406-17.027343 136.832031-62.328125 177.628906-52.917968 47.660156-138.273437 66.367188-234.171875 51.324219-17.367187-2.722656-35.316406-8.820313-50.171875-14.910156 30.097656-10.355469 53.339844-19.585938 90.875-37.351563l52.398438-24.800781-57.851563-3.703125c-27.710937-1.773438-50.785156-15.203125-64.96875-37.007812 7.53125-.4375 14.792969-1.65625 22.023438-3.671876l55.175781-15.367187-55.636719-13.625c-27.035156-6.621094-42.445312-22.796875-50.613281-35.203125-5.363281-8.152344-8.867188-16.503906-10.96875-24.203125 5.578125 1.496094 12.082031 2.5625 22.570312 3.601563l51.496094 5.09375-40.800781-31.828126c-29.398437-22.929687-41.179687-57.378906-32.542969-90.496093 91.75 95.164062 199.476563 88.011719 210.320313 90.527343-2.386719-23.183593-2.449219-23.238281-3.074219-25.445312-13.886719-49.089844 16.546875-74.015625 30.273438-82.453125 28.671874-17.621094 74.183593-20.277344 105.707031 8.753906 6.808593 6.265625 16.015625 8.730469 24.632812 6.589844 7.734375-1.921875 14.082031-3.957031 20.296875-6.171875l-12.9375 36.945312 16.515625.011719c-3.117187 4.179688-6.855469 9.183594-11.351562 15.183594zm0 0"/></svg>
-                    </div>
-                </a>
+            <div class="NumToWord project">
+              <div class="project-name-holder">
+                <p class="project-name-holder-NumToWord project-title">
+                  NumToWord
+                </p>
+              </div>
 
-                <a href="mailto:mrikehchukwuka@gmail.com">
-                    <div class="contacts email" title="email">
-                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M467,61H45C20.218,61,0,81.196,0,106v300c0,24.72,20.128,45,45,45h422c24.72,0,45-20.128,45-45V106 C512,81.28,491.872,61,467,61z M460.786,91L256.954,294.833L51.359,91H460.786z M30,399.788V112.069l144.479,143.24L30,399.788z M51.213,421l144.57-144.57l50.657,50.222c5.864,5.814,15.327,5.795,21.167-0.046L317,277.213L460.787,421H51.213z M482,399.787 L338.213,256L482,112.212V399.787z"/></svg>
-                    </div>
-                </a>
-
-                <a href="https://github.com/IkehAkinyemi">
-                    <div class="contacts github" title="github">
-                        <svg id="regular" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m.184 10.462c-.779 4.906 1.401 10.823 8.123 13.006.12.022.231.032.335.032.782 0 1.32-.582 1.32-1.3-.097-.523.383-2.642-.92-2.357-2.519.536-2.821-.871-3.205-1.607 1.086 1.394 2.718 1.359 3.949.819.683-.3.326-1.064.65-1.343.496-.426.244-1.243-.407-1.314-2.314-.255-4.457-1.001-4.457-4.702 0-2.168 1.505-2.362 1.09-3.269-.015-.033-.333-.754-.045-1.849 1.419.262 2.072 1.28 2.753 1.097 1.687-.46 3.544-.46 5.23 0 .704.189 1.207-.801 2.738-1.103.441 1.654-.473 2.058.103 2.677.632.68.953 1.503.953 2.447 0 5.564-4.717 3.957-5.101 5.22-.088.288.005.599.235.792.61.513.53 1.83.465 2.889-.067 1.098-.125 2.045.482 2.579.214.19.595.393 1.284.253 6.634-2.131 8.83-8.022 8.063-12.917-2.096-13.368-21.526-13.352-23.638-.05zm8.27 10.978.004.505c-.523-.181-1.015-.39-1.475-.623.425.109.913.156 1.471.118zm.37-3.7c-.005.026-.01.053-.015.08-.853.252-1.509.001-1.957-.752 0-.001 0-.001-.001-.002.68.364 1.381.56 1.973.674zm3.176-15.74c11.833 0 14.502 16.267 3.469 19.941-.038-.297-.003-.857.021-1.252.058-.951.126-2.059-.213-2.985 5.088-1.059 5.513-6.646 3.554-9.135.243-.952.145-3.189-.729-3.463-.206-.065-1.305-.304-3.437 1.037-1.741-.416-3.62-.417-5.361 0-1.064-.667-3.462-1.752-3.922-.6-.534 1.342-.407 2.427-.248 3.03-1.739 2.204-1.218 5.894.534 7.626-.993-.475-2.361-.637-2.656.314-.323 1.037.912.911 1.679 2.804.073.236.208.513.415.788-6.811-5.565-3.525-18.105 6.894-18.105z"/></svg>
-                    </div>
-                </a>
-
-                <a href="https://web.facebook.com/favour.ikeh.98">
-                    <div class="contacts dribbble" title="facebook">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" style="null" class="icon icons8-Facebook-Filled"><path d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z"></path></svg>
-                    </div>
-                </a>
-
-                <a href="https://www.linkedin.com/in/ikeh-chukwuka-b17415193">
-                    <div class="contacts behance" title="LinkedIn">
-                        <svg class="linkedin" fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z"/></svg>
-                    </div>
-                </a>
+              <section class="works-hover-state fade-in">
+                <p class="works-hover-state-name">NumToWord</p>
+                <p class="works-hover-state-desc">
+                  NumToWord is a algorithm webapp built to convert numerical
+                  figures to its equivalent in words. <br />
+                  Extended the ability to numbers yet countable. <br />
+                  The algorithm would still undergo restructuring to limit code
+                  repetitions.
+                </p>
+                <div class="works-hover-state-btns">
+                  <button class="works-hover-state-code">
+                    <a href="https://github.com/IkehAkinyemi/NumToWord"
+                      >Source code</a
+                    >
+                  </button>
+                  <button class="works-hover-state-demo">
+                    <a href="https://ikehakinyemi.github.io/NumToWord/">Demo</a>
+                  </button>
+                </div>
+              </section>
             </div>
-        </footer>
+
+            <div class="Dotch project">
+              <div class="project-name-holder">
+                <p class="project-name-holder-Dotch project-title">Dotch</p>
+              </div>
+
+              <section class="works-hover-state fade-in">
+                <p class="works-hover-state-name">Dotch</p>
+                <p class="works-hover-state-desc">
+                  This is a photo collection website inspired by a senior
+                  friend. <br />
+                  The main idea is to create an infinite collections of photos
+                  while learning infinite scroll <br />
+                  So I decide to turn it into a full blown project, which I plan
+                  to incorporate loads of photos using the Unsplash API. This is
+                  still under development, only available in mobile view, coming
+                  soon to desktop
+                </p>
+                <div class="works-hover-state-btns">
+                  <button class="works-hover-state-code">
+                    <a href="https://github.com/IkehAkinyemi/Dotch-project"
+                      >Source code</a
+                    >
+                  </button>
+                  <button class="works-hover-state-demo">
+                    <a href="https://ikehakinyemi.github.io/Dotch-project/"
+                      >Demo</a
+                    >
+                  </button>
+                </div>
+              </section>
+            </div>
+
+            <div class="guessme project">
+              <div class="project-name-holder">
+                <p class="project-name-holder-guessme project-title">GuessME</p>
+              </div>
+
+              <section class="works-hover-state fade-in">
+                <p class="works-hover-state-name">GuessMe</p>
+                <p class="works-hover-state-desc">
+                  Guess Me is a word game inspired by my elder brother. <br />
+                  It is simple to play: a word of jumbled characters is
+                  displayed and the player is required to guess the correct word
+                  <br />
+                  The project would still undergo development as I plan to work
+                  with dictionary API to provide random words with meaning as a
+                  hint, and redesign the UI.
+                </p>
+                <div class="works-hover-state-btns">
+                  <button class="works-hover-state-code">
+                    <a href="https://github.com/IkehAkinyemi/GuessMe-Project"
+                      >Source code</a
+                    >
+                  </button>
+                  <button class="works-hover-state-demo">
+                    <a href="https://ikehakinyemi.github.io/GuessMe-Project/"
+                      >Demo</a
+                    >
+                  </button>
+                </div>
+              </section>
+            </div>
+
+            <div class="lovelife project">
+              <div class="project-name-holder">
+                <p class="project-name-holder-lovelife project-title">
+                  LoveLife
+                </p>
+              </div>
+
+              <section class="works-hover-state fade-in">
+                <p class="works-hover-state-name">LoveLife</p>
+                <p class="works-hover-state-desc">
+                  Built it for Joyce, my friend that was more than a friend.
+                  <br />
+                  I built it in appreciation to her true friendship and
+                  contribution to my life during my first year in University<br />
+                  Built it as gift to her on her birthday.
+                </p>
+                <div class="works-hover-state-btns">
+                  <button class="works-hover-state-code">
+                    <a href="https://github.com/IkehAkinyemi/Joyce-s-Birthday"
+                      >Source code</a
+                    >
+                  </button>
+                  <button class="works-hover-state-demo">
+                    <a href="https://ikehakinyemi.github.io/Joyce-s-Birthday/"
+                      >Demo</a
+                    >
+                  </button>
+                </div>
+              </section>
+            </div>
+
+            <div class="gravitas project">
+              <div class="project-name-holder">
+                <p class="project-name-holder-gravitas project-title">
+                  Gravitas Family
+                </p>
+              </div>
+
+              <section class="works-hover-state fade-in">
+                <p class="works-hover-state-name">Gravitas Family</p>
+                <p class="works-hover-state-desc">
+                  I learnt building website UI with this project as my first
+                  webpage.<br />
+                  This project was desktop ready as of the time I built it then.
+                </p>
+                <div class="works-hover-state-btns">
+                  <button class="works-hover-state-code">
+                    <a href="https://github.com/IkehAkinyemi/Gravitas"
+                      >Source code</a
+                    >
+                  </button>
+                  <button class="works-hover-state-demo">
+                    <a href="https://ikehakinyemi.github.io/Gravitas/">Demo</a>
+                  </button>
+                </div>
+              </section>
+            </div>
+
+            <div class="color-generator project">
+              <div class="project-name-holder">
+                <p class="project-name-holder-color-generator project-title">
+                  Color-generator
+                </p>
+              </div>
+
+              <section class="works-hover-state fade-in">
+                <p class="works-hover-state-name">Color-generator</p>
+                <p class="works-hover-state-desc">
+                  Color-generator is a very basic project. It generates random
+                  color between color value of 0 and the color value you input.
+                </p>
+                <div class="works-hover-state-btns">
+                  <button class="works-hover-state-code">
+                    <a href="https://github.com/IkehAkinyemi/color-GENERATOR"
+                      >Source code</a
+                    >
+                  </button>
+                  <button class="works-hover-state-demo">
+                    <a href="https://ikehakinyemi.github.io/color-GENERATOR/"
+                      >Demo</a
+                    >
+                  </button>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p class="footer-contact-me header" id="contact-me">Contact Me</p>
+        <hr />
+        <div class="contact-links">
+          <a href="https://twitter.com/IkehAkinyemi">
+            <div class="contacts twitter" title="twitter">
+              <svg
+                viewBox="0 -47 512.00004 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m512 55.964844c-32.207031 1.484375-31.503906 1.363281-35.144531 1.667968l19.074219-54.472656s-59.539063 21.902344-74.632813 25.820313c-39.640625-35.628907-98.5625-37.203125-140.6875-11.3125-34.496094 21.207031-53.011719 57.625-46.835937 100.191406-67.136719-9.316406-123.703126-41.140625-168.363282-94.789063l-14.125-16.964843-10.554687 19.382812c-13.339844 24.492188-17.769531 52.496094-12.476563 78.851563 2.171875 10.8125 5.863282 21.125 10.976563 30.78125l-12.117188-4.695313-1.4375 20.246094c-1.457031 20.566406 5.390625 44.574219 18.320313 64.214844 3.640625 5.53125 8.328125 11.605469 14.269531 17.597656l-6.261719-.960937 7.640625 23.199218c10.042969 30.480469 30.902344 54.0625 57.972657 67.171875-27.035157 11.472657-48.875 18.792969-84.773438 30.601563l-32.84375 10.796875 30.335938 16.585937c11.566406 6.324219 52.4375 27.445313 92.820312 33.78125 89.765625 14.078125 190.832031 2.613282 258.871094-58.664062 57.308594-51.613282 76.113281-125.03125 72.207031-201.433594-.589844-11.566406 2.578125-22.605469 8.921875-31.078125 12.707031-16.964844 48.765625-66.40625 48.84375-66.519531zm-72.832031 48.550781c-10.535157 14.066406-15.8125 32.03125-14.867188 50.578125 3.941407 77.066406-17.027343 136.832031-62.328125 177.628906-52.917968 47.660156-138.273437 66.367188-234.171875 51.324219-17.367187-2.722656-35.316406-8.820313-50.171875-14.910156 30.097656-10.355469 53.339844-19.585938 90.875-37.351563l52.398438-24.800781-57.851563-3.703125c-27.710937-1.773438-50.785156-15.203125-64.96875-37.007812 7.53125-.4375 14.792969-1.65625 22.023438-3.671876l55.175781-15.367187-55.636719-13.625c-27.035156-6.621094-42.445312-22.796875-50.613281-35.203125-5.363281-8.152344-8.867188-16.503906-10.96875-24.203125 5.578125 1.496094 12.082031 2.5625 22.570312 3.601563l51.496094 5.09375-40.800781-31.828126c-29.398437-22.929687-41.179687-57.378906-32.542969-90.496093 91.75 95.164062 199.476563 88.011719 210.320313 90.527343-2.386719-23.183593-2.449219-23.238281-3.074219-25.445312-13.886719-49.089844 16.546875-74.015625 30.273438-82.453125 28.671874-17.621094 74.183593-20.277344 105.707031 8.753906 6.808593 6.265625 16.015625 8.730469 24.632812 6.589844 7.734375-1.921875 14.082031-3.957031 20.296875-6.171875l-12.9375 36.945312 16.515625.011719c-3.117187 4.179688-6.855469 9.183594-11.351562 15.183594zm0 0"
+                />
+              </svg>
+            </div>
+          </a>
+
+          <a href="mailto:mrikehchukwuka@gmail.com">
+            <div class="contacts email" title="email">
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 512 512"
+                style="enable-background: new 0 0 512 512"
+                xml:space="preserve"
+              >
+                <path
+                  d="M467,61H45C20.218,61,0,81.196,0,106v300c0,24.72,20.128,45,45,45h422c24.72,0,45-20.128,45-45V106 C512,81.28,491.872,61,467,61z M460.786,91L256.954,294.833L51.359,91H460.786z M30,399.788V112.069l144.479,143.24L30,399.788z M51.213,421l144.57-144.57l50.657,50.222c5.864,5.814,15.327,5.795,21.167-0.046L317,277.213L460.787,421H51.213z M482,399.787 L338.213,256L482,112.212V399.787z"
+                />
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://github.com/IkehAkinyemi">
+            <div class="contacts github" title="github">
+              <svg
+                id="regular"
+                enable-background="new 0 0 24 24"
+                height="512"
+                viewBox="0 0 24 24"
+                width="512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m.184 10.462c-.779 4.906 1.401 10.823 8.123 13.006.12.022.231.032.335.032.782 0 1.32-.582 1.32-1.3-.097-.523.383-2.642-.92-2.357-2.519.536-2.821-.871-3.205-1.607 1.086 1.394 2.718 1.359 3.949.819.683-.3.326-1.064.65-1.343.496-.426.244-1.243-.407-1.314-2.314-.255-4.457-1.001-4.457-4.702 0-2.168 1.505-2.362 1.09-3.269-.015-.033-.333-.754-.045-1.849 1.419.262 2.072 1.28 2.753 1.097 1.687-.46 3.544-.46 5.23 0 .704.189 1.207-.801 2.738-1.103.441 1.654-.473 2.058.103 2.677.632.68.953 1.503.953 2.447 0 5.564-4.717 3.957-5.101 5.22-.088.288.005.599.235.792.61.513.53 1.83.465 2.889-.067 1.098-.125 2.045.482 2.579.214.19.595.393 1.284.253 6.634-2.131 8.83-8.022 8.063-12.917-2.096-13.368-21.526-13.352-23.638-.05zm8.27 10.978.004.505c-.523-.181-1.015-.39-1.475-.623.425.109.913.156 1.471.118zm.37-3.7c-.005.026-.01.053-.015.08-.853.252-1.509.001-1.957-.752 0-.001 0-.001-.001-.002.68.364 1.381.56 1.973.674zm3.176-15.74c11.833 0 14.502 16.267 3.469 19.941-.038-.297-.003-.857.021-1.252.058-.951.126-2.059-.213-2.985 5.088-1.059 5.513-6.646 3.554-9.135.243-.952.145-3.189-.729-3.463-.206-.065-1.305-.304-3.437 1.037-1.741-.416-3.62-.417-5.361 0-1.064-.667-3.462-1.752-3.922-.6-.534 1.342-.407 2.427-.248 3.03-1.739 2.204-1.218 5.894.534 7.626-.993-.475-2.361-.637-2.656.314-.323 1.037.912.911 1.679 2.804.073.236.208.513.415.788-6.811-5.565-3.525-18.105 6.894-18.105z"
+                />
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://web.facebook.com/favour.ikeh.98">
+            <div class="contacts dribbble" title="facebook">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.0"
+                x="0px"
+                y="0px"
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                style="null"
+                class="icon icons8-Facebook-Filled"
+              >
+                <path
+                  d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/ikeh-chukwuka-b17415193">
+            <div class="contacts behance" title="LinkedIn">
+              <svg
+                class="linkedin"
+                fill="#000000"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z"
+                />
+              </svg>
+            </div>
+          </a>
+        </div>
+      </footer>
     </div>
 
     <div class="copyright">
-        <p> Ikeh Akinyemi &copy <span id="date">2020</span></p>
+      <p>Ikeh Akinyemi &copy <span id="date">2020</span></p>
     </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
